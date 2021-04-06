@@ -12,10 +12,11 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
-
-
-
+  row-gap: 5rem;
+  top: 0px;
+  left: 0px; 
+  bottom: 0;
+  right: 0;
 }
 #header {
   width: 95%;
@@ -27,6 +28,11 @@
   margin-top:2rem;
   margin-bottom: 2rem;
   background-color: rgb(233, 202, 192);
+  border-radius: 1rem;
+  position: fixed;
+
+  z-index: 1;
+
 }
 #header img{
   margin: 1rem;
@@ -43,6 +49,7 @@
   width: 50%;
   justify-content: space-around;
   background-color: rgb(233, 202, 192);
+  /* position: fixed; */
 
 
 }
@@ -50,7 +57,7 @@
   margin: 1rem;
   background-color:rgb(214, 157, 103);
   border-radius: .3rem;
-  padding: .5rem;
+  padding: .1rem;
 
 }
 .Video{
@@ -59,6 +66,7 @@
   align-items: center;
   height: 25rem;
   position:relative;
+  margin-top: 10rem;
 
 }
 #video{
@@ -110,5 +118,12 @@ footer {
   width: 100%;
   padding: 1rem;
 }
+.Video{
+  margin-top: 0.1rem;
 
+}
+#header {
+  position: relative;
+
+}
   }
