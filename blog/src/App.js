@@ -1,10 +1,10 @@
 import './App.css';
+import Homepage from './Components/Homepage';
 
 function App() {
   return (
     <div className="App">
-      Hello world to blog Website
-     
+      
     </div>
   );
 }
